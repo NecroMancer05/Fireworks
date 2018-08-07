@@ -4,7 +4,8 @@ var count = 0.05;
 
 function setup() {
 
-  createCanvas(1000, 800);
+  //createCanvas(1000, 800);
+  createCanvas(windowWidth, windowHeight);
   colorMode(HSB);
   gravity = createVector(0, 0.2);
   // fireworks.push(new Firework());
